@@ -233,7 +233,8 @@ flex: center;
   width: 100%;
   height: 6px;
   padding: 0px;
-  background-color: black;
+  background-color:  black;
+  background-color: groove black;
   margin-bottom: 100px;
  left:0px; bottom:350px;
 }
@@ -254,6 +255,40 @@ flex: center;
   z-index: 1;
   overflow-x: hidden;
   background-image: url(../portfolio-HansUustalu/IMG_7176 copy.jpg);
+}
+.pic2{
+  display: grid;
+  width: 25%;
+  grid-column: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+background-image: url(../the pattern.png);
+
+ background-repeat: repeat;
+ float: left;
+ margin-top: 6px;
+
+}
+.pic2vol{
+  display: grid;
+  width: 27.5%;
+  grid-column: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+background-image: url(../the pattern.png);
+
+ background-repeat: repeat;
+ float: right;
+ margin-top: 6px;
+
+}
+.pic3{
+  display:grid;
+grid-template-rows: 2fr;
+grid-template-columns: 2fr;
+width: 25%;
+margin-top: -463%;
+position: static;
+
+imagesidebar: repeat-x;
 }
 .imagesidebar{
   padding:20px;
@@ -324,7 +359,7 @@ button{
   text-align:inherit;
   width: 400px;
   height: 500px;
-  border: 10px groove black;
+  border: 10px groove #000;
   padding: 30px;
   border-radius:40px;
   overflow:scroll;
