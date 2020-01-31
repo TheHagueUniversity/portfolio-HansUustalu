@@ -47,15 +47,29 @@ table {
   border-spacing: 0;
 }
 body{
-  background-color:#337CAA;
+  background-color:#6099bd;
 }
 /* div{
   word-wrap: 30px;
 } */
 .menu{
-  font-family: 'Indie Flower', cursive;
-}
 
+  font-family: gin, serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+
+
+}
+.start{
+margin: 10%;
+font-size: 40px;
+font-family: bungee, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -76,7 +90,7 @@ li:hover{
   color:black;
 }
 .menu{
-  background-color: #6B8799;
+  background-color: #2E5770;
   /* margin-bottom: 50px;  */
 
   font-size: 30px;
@@ -122,17 +136,7 @@ color:white;
 
   margin-left: none;
 }
-.home:hover .dropdown-content{
-  display: grid;
 
-}
-.dropdown-content {
-  display: none;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 
 .portfolio{
   margin-left: 60px;
@@ -143,9 +147,13 @@ color:white;
 }
 
 .box{
+  display: grid;
+  grid-column: auto;
+  grid-row: auto;
+
   border: 6px groove black;
   padding: 20%;
-  border-radius: 10px;
+  border-radius: 200px;
   border-radius: 60px;
   padding: 10%;
 
@@ -166,7 +174,7 @@ color:white;
   padding-top: 0px;
   padding-bottom: -10px;
   margin-left: 24%;
-    margin-top: -0.5%;
+    margin-top: -0.7%;
 flex: center;
 }
 .box2{
@@ -239,7 +247,7 @@ flex: center;
  left:0px; bottom:350px;
 }
 .ruut{
-  display: grid;
+
   border: 6px solid black;
     height: 100%;
     padding: 12px;
@@ -254,7 +262,7 @@ flex: center;
   margin-top: 20%;
   z-index: 1;
   overflow-x: hidden;
-  background-image: url(../portfolio-HansUustalu/IMG_7176 copy.jpg);
+
 }
 .pic2{
   display: grid;
@@ -273,8 +281,6 @@ background-image: url(../the pattern.png);
   width: 27.5%;
   grid-column: 1fr 1fr 1fr;
   grid-row: 1fr 1fr 1fr 1fr;
-background-image: url(../the pattern.png);
-
  background-repeat: repeat;
  float: right;
  margin-top: 6px;
@@ -339,14 +345,13 @@ imagesidebar: repeat-x;
 button{
   display: none;
 }
-.wrapper{
-  display: grid;
-  width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
-  margin-left: 6.5%;
 
-}
+.wrapper12 {
+  display: grid;
+  grid-template-columns: repeat(2fr,1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  }
 .size{
   height: 100%;
   width: 100%;
@@ -366,10 +371,12 @@ button{
   overflow:scroll;
   font-size: 40px;
   font-family:'Economica', sans-serif;
-  margin-left: 30px;
+  margin-left: 20px;
   flex-wrap: wrap;
   background-image: url(contact.png) ;margin-right:30px;
   background-size: cover;
+  margin-left: 15%;
+margin-right: 200px;
 }
 .box2{
   margin-top: 120%;
@@ -394,9 +401,10 @@ button{
   font-size: 40px;
   font-family:'Economica', sans-serif;
   margin-left: 30px;
+  margin-right: 20px;
 
   flex-wrap: wrap;
-  background-image: url(the_map.png);margin-right:30px;
+  background-image: url(the_map_copy.png);margin-right:30px;
   background-size: cover;
 
 }
@@ -438,4 +446,21 @@ button{
   flex-wrap: wrap;
   background-image: url(the _map.png);
   background-size: cover;
+}
+.margin_port{
+  margin-left: 9%;
+  margin-right: 3%;
+  justify-content: center;
+}
+.grid2{
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+grid-row: span 3;
+grid-column: span 4;
+
+}
+.text{
+  font-size: 30px;
 }
