@@ -50,7 +50,7 @@ body{
   background-color:#6099bd;
 }
 /* div{
-  word-wrap: 30px;
+word-wrap: 30px;
 } */
 .menu{
 
@@ -64,11 +64,11 @@ body{
 
 }
 .start{
-margin: 10%;
-font-size: 40px;
-font-family: bungee, sans-serif;
-font-weight: 400;
-font-style: normal;
+  margin: 10%;
+  font-size: 40px;
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 img {
   max-width: 100%;
@@ -116,14 +116,14 @@ li:hover{
   color:white;
   background-color: black;
   padding-bottom: -10%;
-    margin-top: -50px;
-    margin-bottom: 100px;
+  margin-top: -50px;
+  margin-bottom: 100px;
 
 }
 .hover2:hover{
   color:white;
   background-color: black;
-color:white;
+  color:white;
   background-color: black;
   border-radius: 40px;
   padding: 10px;
@@ -174,8 +174,8 @@ color:white;
   padding-top: 0px;
   padding-bottom: -10px;
   margin-left: 24%;
-    margin-top: -0.7%;
-flex: center;
+  margin-top: -0.7%;
+  flex: center;
 }
 .box2{
   display: grid;
@@ -244,58 +244,31 @@ flex: center;
   background-color:  black;
   background-color: groove black;
   margin-bottom: 100px;
- left:0px; bottom:350px;
+  left:0px; bottom:350px;
 }
 .ruut{
 
   border: 6px solid black;
-    height: 100%;
-    padding: 12px;
-     width: 45%;
-     margin-left:25%;
-     position: center;
-     margin-top: -106px;
-   }
-.side-pic{
-  width: 5%;
   height: 100%;
-  margin-top: 20%;
-  z-index: 1;
-  overflow-x: hidden;
-
+  padding: 12px;
+  width: 45%;
+  margin-left:25%;
+  position: center;
+  margin-top: -106px;
 }
+
 .pic2{
-  display: grid;
   width: 25%;
-  grid-column: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr 1fr;
-background-image: url(../the pattern.png);
-
- background-repeat: repeat;
- float: left;
- margin-top: 6px;
-
+  float: left;
+  margin-top: 6px;
 }
 .pic2vol{
-  display: grid;
   width: 27.5%;
-  grid-column: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr 1fr;
- background-repeat: repeat;
- float: right;
- margin-top: 6px;
+  float: right;
+  margin-top: 6px;
 
 }
-.pic3{
-  display:grid;
-grid-template-rows: 2fr;
-grid-template-columns: 2fr;
-width: 25%;
-margin-top: -463%;
-position: static;
 
-imagesidebar: repeat-x;
-}
 .imagesidebar{
   padding:20px;
   width: 260px;
@@ -351,7 +324,7 @@ button{
   grid-template-columns: repeat(2fr,1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  }
+}
 .size{
   height: 100%;
   width: 100%;
@@ -376,7 +349,7 @@ button{
   background-image: url(contact.png) ;margin-right:30px;
   background-size: cover;
   margin-left: 15%;
-margin-right: 200px;
+  margin-right: 200px;
 }
 .box2{
   margin-top: 120%;
@@ -457,10 +430,33 @@ margin-right: 200px;
   display: grid;
   grid-template-columns: auto;
   grid-auto-rows: auto;
-grid-row: span 3;
-grid-column: span 4;
+  grid-row: span 3;
+  grid-column: span 4;
 
 }
-.text{
-  font-size: 30px;
+#text{
+  margin-top: 5%;
+  font-size: 28.5px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.blog{
+font-family: 'Libre Franklin', sans-serif;
+}
+.right{
+  float: right;
+}
+.centre{
+  display: gird;
+  grid-row: 4;
+
+width: 470px;
+height: 293.5px;
+margin-right: 5px;
+margin-left: 5px;
+}
+.pos2{
+  display: gird;
+  grid-row: 2;
+
 }
