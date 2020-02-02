@@ -77,7 +77,7 @@ img {
 
 }
 nav{
-  margin-bottom: 10px;
+
   padding-bottom: -20px;
 }
 .start_text {
@@ -374,6 +374,8 @@ button{
   background-size: cover;
   margin-left: 15%;
   margin-right: 200px;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 .box2{
   margin-top: 120%;
@@ -399,10 +401,11 @@ button{
   font-family:'Economica', sans-serif;
   margin-left: 30px;
   margin-right: 20px;
-
+margin-top: 18.5%;
   flex-wrap: wrap;
   background-image: url(the_map_copy.png);margin-right:30px;
   background-size: cover;
+
 
 }
 .box5{
@@ -529,4 +532,22 @@ margin-left: 30%;
   margin-left: 10px;
     font-family: 'Libre Franklin', sans-serif;
     font-style: bold;
+}
+.white{
+  margin-right: -5px;
+}
+.img_pos{
+margin-left: 17%;
+margin-top: -100%;
+margin-bottom: 90%;
+
+}
+.img_up{
+padding-top: -5%;
+}
+.vahe{
+  margin-bottom: 10px;
+}
+.vahe2{
+  margin-top:30%;
 }
