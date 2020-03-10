@@ -66,7 +66,7 @@ word-wrap: 30px;
 .start{
   margin: 10%;
   font-size: 40px;
-  font-family: bungee, sans-serif;
+  font-family: gin, serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -141,7 +141,7 @@ li:hover{
 
 
 .portfolio{
-  margin-left: 60px;
+  margin-left: 10%;
 }
 
 .contact{
@@ -149,30 +149,66 @@ li:hover{
   margin-left: 40%;
   font-family: gin, serif;
   color:black;
+  font-size: 50px;
+ overflow: hidden;
+
+
 }
 .e-mail{
-font-size: 28.5px;
+  font-size: 28.5px;
   font-family: gin, serif;
   margin-right: -4vh;
   margin-left: 20px;
 }
+.e-mail2{
+  font-size: 35px;
+  font-family: gin, serif;
+  margin-right: -4vh;
+  margin-left: 35%;
+  color:#4DFFE4;
+}
 .tel{
-  font-size: 28.5px;
+  font-size: 30px;
+  font-family: gin, serif;
+  margin-right: -4vh;
+  margin-left: 20px;
+  margin-top: 10%;
+  margin-left: 4%;
+}
+.tel2{
+  margin-left: 30%;
+  font-family: gin, serif;
+  margin-right: -4vh;
+color:#4DFFE4;
+  margin-top: -5%;
+  margin-left: 20%;
+  font-size: 35px;
+}
+.numer{
+  margin-left:10%;
+  margin-top: -10%;
+  color:black;
     font-family: gin, serif;
-    margin-right: -4vh;
-    margin-left: 20px;
-    margin-top: 10%;
-    margin-left: 4%;
+}
+.move2{
+  margin-top: 10%;
+}
+.wrapper{
+  margin-top: 40%;
+}
+.see{
+  background-color: red;
 }
 .line1{
-   border: 3px solid;
-   margin-left:-28.9px;
-   position: relative;
+  border: 3px solid;
+  margin-left:-28.9px;
+  position: relative;
 }
 .mail{
   font-family: gin, serif;
-  font-size:28.5px;
+  font-size:30px;
   margin-left: 2%;
+  color:black;
 
 
 }
@@ -192,64 +228,17 @@ font-size: 28.5px;
 }
 .box_down{
   display: grid;
-  grid-column: auto;
   grid-row: auto;
-  border: 6px groove black;
+  grid-column: auto;
+  border:  6px groove black;
   padding: 20%;
-  border-radius: 200px;
   border-radius: 60px;
   padding: 10%;
   margin-top: 5%;
-  margin-left: 30%;
-  margin-right: 0%;
-  margin-bottom: 0%;
-}
-.box_down:hover{
-  border: 6px groove black;
-  padding: 90%;
-  border-radius: 10px;
-  border-radius: 60px;
-  padding: 0%;
-}
-.box:hover{
-  border: 6px groove black;
-  padding: 90%;
-  border-radius: 10px;
-  border-radius: 60px;
-  padding: 0%;
-}
-.pilt{
-  display: flex;
-  height: 50%;
-  width: 50%;
-  padding-left:0px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: -10px;
-  margin-left: 24%;
-  margin-top: -0.7%;
-  flex: center;
-}
-.box2{
-  display: grid;
-  grid-template-columns: span 2;
-  grid-template-rows: span 2;
-  height: 80%;
-  width: 80%;
+  margin-left: 3%;
+  margin-right: 90%;
+  margin-bottom: 2000px;
 
-  color:white;
-  font-size:70px;
-  padding-top: 100px;
-  margin-bottom: 200px;
-  font-family: 'Indie Flower', cursive;
-  position: center;
-  margin-left: 10%;
-  border: 6px solid black;
-  margin-right: 10%;
-  padding-bottom: 100px;
-  border-radius: 40px;
-  position: center;
-  justify-items: center;
 }
 .grid {
   display: grid;
@@ -258,8 +247,35 @@ font-size: 28.5px;
   margin-left: -100px;
   margin-right: -400px;
   margin-top: -100px;
+  word-wrap: break-word;
 }
+@media only screen and (max-width:900px) {
+  .grid {width:100%;
 
+    float:none;
+
+    margin-top:10px;
+  }
+  .menu{
+    background-color: #2E5770;
+    font-size: 30px;
+    display: flex;
+flex: auto;
+
+
+  }
+  .about{
+    margin-top:10%;
+
+  }
+.ux{
+ transform: scale(0.7);
+ margin-left: -20%;
+}
+}
+.move{
+  margin-left: 90%;
+}
 
 
 .centre_text{
@@ -308,7 +324,16 @@ font-size: 28.5px;
   position: center;
   margin-top: -106px;
 }
+.ux{
+  margin-top: -60%;
 
+  margin-left: 55%;
+  margin-bottom: 11%;
+}
+.photogrpahy{
+  margin-left: 3%;
+  margin-top: 5%;
+}
 .pic2{
   width: 25%;
   float: left;
@@ -376,7 +401,9 @@ button{
   grid-template-columns: repeat(2fr,1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  margin-right: 5%;
 }
+
 .size{
   height: 100%;
   width: 100%;
@@ -407,75 +434,128 @@ button{
 .contact{
   margin-left:25%;
   font-family: ;
+  color:#4DFFE4;
 }
 .map{
   margin-left: -7.3%;
   margin-top: -5%;
   margin-right: -10px;
+  overflow: hidden;
 }
 .bespoke{
   background-color: white;
   text-decoration: none;
-
 
 }
 .bespoke2{
   margin-left: 23%;
   margin-top: 10%;
   color:black;
-    font-family: gin, serif;
-    font-size: 40px;
+  font-family: gin, serif;
+  font-size: 30px;
+}
+.proto{
+  margin-left: 10%;
+  margin-top: 10%;
+  color:black;
+  font-family: gin, serif;
+  font-size: 37px;
+}
+.block{
+  word-wrap: break-word;
+}
+
+.text:hover{
+  font-size: calc(40*3);
 }
 .research{
   margin-left: 20%;
   margin-top: 10%;
   color:black;
-    font-family: gin, serif;
-    font-size: 30px;
+  font-family: gin, serif;
+  font-size: 30px;
 }
 .research2{
   margin-left: 37%;
   margin-top: 0%;
   color:black;
-    font-family: gin, serif;
-    font-size: 30px;
+  font-family: gin, serif;
+  font-size: 30px;
 }
 .research3{
   margin-left: 27%;
   margin-top: 0%;
   color:black;
-    font-family: gin, serif;
-    font-size: 30px;
+  font-family: gin, serif;
+  font-size: 30px;
+}
+.photo{
+  margin-left: 15%;
+  margin-top: 15%;
+  color:black;
+  font-family: gin, serif;
+  font-size: 30px;
 }
 .small_design2{
   font-size: 13px;
-    font-family: gin, serif;color:black;
-    margin-left: 10%;
-    margin-top: 5%;
+  font-family: gin, serif;color:black;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.small_design3{
+  font-size: 13px;
+  font-family: gin, serif;color:black;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 .design{
-  margin-left: 30%;
-    font-family: gin, serif;color:black;    font-size: 40px;
+  margin-left: 27%;
+  font-family: gin, serif;color:black;    font-size: 30px;
 }
 .small_design{
   font-size: 13px;
-    font-family: gin, serif;color:black;
-    margin-left: 20%;
-    margin-top: 5%;
+  font-family: gin, serif;color:black;
+  margin-left: 12%;
+  margin-top: 5%;
+  margin-right: 5%;
 }
 .click{
   font-size: 20px;
-    font-family: gin, serif;color:black;
-    margin-left: 20%;
-    margin-top: 10%;
-    justify-content: center;
+  font-family: gin, serif;
+  color:black;
+  margin-left: 24%;
+  margin-top: 20%;
+  margin-bottom: -10%;
+  justify-content: center;
+}
+.click2{
+  font-size: 20px;
+  font-family: gin, serif;
+  color:black;
+  margin-left: 24%;
+  margin-top: 10%;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.click3{
+  font-size: 20px;
+  font-family: gin, serif;
+  color:black;
+  margin-left: 24%;
+  margin-top: 35%;
+  justify-content: center;
+  margin-bottom: -10%;
+
 }
 .box2{
   margin-top: 120%;
   grid-template-columns: 2fr;
   grid-auto-rows: 2fr 1fr;
 }
-
+.space{
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
 .box3{
   grid-template-columns: 2fr;
   grid-auto-rows: 2fr 1fr;
@@ -497,8 +577,9 @@ button{
   margin-right: 20px;
   margin-top: 18.5%;
   flex-wrap: wrap;
-  background-image: url(the_map_copy.png);margin-right:30px;
+    overflow: hidden;
   background-size: cover;
+  margin-left: 15%;
 
 
 }
@@ -523,10 +604,28 @@ button{
   margin-right: 30px;
   margin-left: 30px;
   line-height: normal;
+
+}
+#text2{
+  margin-top: 5%;
+  font-size: 28.5px;
+  margin-right: 30px;
+  margin-left: 30px;
+
+
+  font-family: gin, serif;
+}
+p.text3 {
+  line-height: 30;
+  margin-top: 10%;
 }
 
 .blog{
   font-family: 'Libre Franklin', sans-serif;
+
+}
+.blog2{
+  font-family: gin, serif;
 }
 .blog2{
   margin-bottom: 5%;
@@ -537,11 +636,15 @@ button{
   font-family: 'Libre Franklin', sans-serif;
 }
 #text2{
-  margin-top: 5%;
+
   font-size: 28.5px;
   margin-right: 30px;
   margin-left: 30px;
   line-height: normal;
+}
+.social{
+  margin-top: 10%;
+
 }
 .right{
   float: right;
@@ -586,24 +689,49 @@ button{
   font-size: 38.5px;
   margin-right: 30px;
   margin-left: 10px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: gin, serif;
   font-style: bold;
 }
-.white{
-  margin-right: -5px;
-}
-.img_pos{
-  margin-left: 10%;
-  margin-top: -100%;
-  margin-bottom: 90%;
 
-}
 .img_up{
   padding-top: -5%;
 }
 .vahe{
   margin-bottom: 10px;
 }
+.vl {
+  border-left: 10px solid #2E5770;
+  height: 105%;
+padding-top: 46%;
+  position: flex;
+margin-left: 10%;
+margin-top:-4%;
+padding-bottom: 4%;
+
+}
+@media only screen and (max-width: 700px){
 .vahe2{
   margin-top:30%;
+}
+.vl{
+  display: none;
+}
+.ux{
+  margin-top: 40%;
+  margin-left: 10%;
+  width: 400px;
+}
+.box4{
+  grid:display;
+  grid-column: 1;
+  grid-row: 2;
+
+}
+.wrapper{
+  padding-right: 50%;
+}
+.menu{
+  font-size: 9px;
+  width: 100%;
+}
 }
