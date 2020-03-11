@@ -82,6 +82,30 @@ nav{
 li:hover{
   color:black;
 }
+.menu2{
+  background-color: #2E5770;
+  /* margin-bottom: 50px;  */
+width: 95.75%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding:30px;
+
+    font-family: gin, serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    margin-top: 30px;
+    color: #4DFFE4;
+    text-decoration: none;
+    width: 95.75%;
+    background-color: #2E5770;
+    font-size: 30px;
+    display: flex;
+flex: auto;
+width: 95.75%;
+}
 .menu{
   background-color: #2E5770;
   /* margin-bottom: 50px;  */
@@ -257,9 +281,7 @@ color:#4DFFE4;
     padding: -10%;
     margin-top: 10px;
   }
-  .menu{
 
-  }
   .wrapper12 {
       margin-right: 20%;
       margin-left: -10%;
@@ -281,7 +303,7 @@ width: 95.75%;
   }
   .about{
     margin-top:10%;
-
+margin-left:5%;
   }
 .ux{
  transform: scale(0.7);
@@ -732,6 +754,10 @@ background-size: cover;
 }
 .vl{
   display: none;
+}
+.about{
+  margin-top:10%;
+margin-left:5%; 
 }
 .ux{
   margin-top: 40%;
