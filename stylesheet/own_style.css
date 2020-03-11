@@ -52,10 +52,7 @@ body{
 /* div{
 word-wrap: 30px;
 } */
-.menu{
 
-
-}
 .start{
   margin: 10%;
   font-size: 40px;
@@ -88,7 +85,7 @@ li:hover{
 .menu{
   background-color: #2E5770;
   /* margin-bottom: 50px;  */
-
+width: 95.75%;
   font-size: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -106,6 +103,7 @@ li:hover{
   margin-top: 30px;
   color: #4DFFE4;
   text-decoration: none;
+  width: 95.75%;
 }
 .hover {
   border-radius: 40px;
@@ -265,7 +263,7 @@ color:#4DFFE4;
   .wrapper12 {
       margin-right: 20%;
       margin-left: -10%;
-      width: 100%;
+      width: 95.75%;
     }
   .click3{
     padding-bottom: 20%;
@@ -278,7 +276,7 @@ color:#4DFFE4;
     font-size: 30px;
     display: flex;
 flex: auto;
-width: 100%;
+width: 95.75%;
 
   }
   .about{
