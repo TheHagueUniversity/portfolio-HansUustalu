@@ -279,7 +279,7 @@ position: static;
 .body{
   overflow: hidden;
 }
-
+/*
 @media only screen and (max-width:900px) {
   .grid {    width: 100%;
     grid-template-columns: 1fr;
@@ -287,7 +287,7 @@ position: static;
     margin: -10%;
     padding: -10%;
     margin-top: 10px;
-  }
+  }*/
 .body{
   overflow: visible;
 }
@@ -939,9 +939,19 @@ margin-left: 15%;
 .hard{
   margin-top: -28%;
 }
+.hard2{
+  margin-right: 9%;
+}
 .scale{
   margin-top: -20%;
   margin-bottom: -30%;
 
+}
+.grid {    width: 100%;
+  grid-template-columns: 1fr;
+  float: none;
+  margin: -10%;
+  padding: -10%;
+  margin-top: 10px;
 }
 }
