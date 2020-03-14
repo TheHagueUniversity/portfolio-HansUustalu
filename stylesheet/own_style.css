@@ -143,8 +143,10 @@ li:hover{
   display: grid;
   margin-left: none;
 }
-
-
+.element {
+visibility: hidden;
+margin-top: 90%;
+}
 .portfolio{
   margin-left: 10%;
 }
@@ -284,8 +286,10 @@ li:hover{
 }
 .scale{
   transform: scale(0.2);
-  margin-top: -95%;
-  padding-bottom: 20%;
+  margin-top: -75%;
+  margin-bottom: -70%;
+  padding-bottom: 0%;
+
 }
 .move{
   margin-left: 90%;
@@ -481,7 +485,7 @@ li:hover{
   font-weight: 400;
   font-size: 30px;
   margin-left: 11%;
-  margin-top: 8%;
+  margin-top: 7%;
 }
 .soft2{
   font-family: gin, serif;
@@ -495,7 +499,7 @@ li:hover{
   font-weight: 400;
   font-size: 30px;
   margin-left: 72%;
-  margin-top: -13.3%;
+  margin-top: -13.2%;
 }
 .hard2{
   font-family: gin, serif;
