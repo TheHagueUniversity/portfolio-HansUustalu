@@ -144,8 +144,8 @@ li:hover{
   margin-left: none;
 }
 .element {
-visibility: hidden;
-margin-top: 90%;
+  visibility: hidden;
+  margin-top: 90%;
 }
 .portfolio{
   margin-left: 10%;
@@ -847,8 +847,8 @@ p.text3 {
     margin-right: 9%;
   }
   .scale{
-    margin-top: -20%;
-    margin-bottom: -30%;
+    margin-top: -150%;
+    margin-bottom: 10%;
 
   }
   .grid {
