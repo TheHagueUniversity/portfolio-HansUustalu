@@ -768,7 +768,12 @@ margin-left: 1.1%;
 .two{
   display: none;
 }
-
+.keha{
+  overflow:hidden;
+}
+.pos45{
+  visibility: none;
+}
 @media only screen and (max-width: 700px){
   .vahe2{
     margin-top:30%;
