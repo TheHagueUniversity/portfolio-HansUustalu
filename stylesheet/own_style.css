@@ -264,7 +264,9 @@ margin-left: -6%;
   overflow-x: hidden;
 }
 
-
+.body2{
+overflow: hidden; 
+}
 .click3{
   padding-bottom: 20%;
   margin-bottom: 30%;
