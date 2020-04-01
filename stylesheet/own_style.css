@@ -846,8 +846,9 @@ font-size: 30px;
     padding: -10%;
     margin-top: -100%;
     margin-bottom: 5%;
-    margin-left:-20%;
+    margin-left:15%;
         transform: scale(0.5);
+
   }
   .box4{
     margin-top: 160%;
