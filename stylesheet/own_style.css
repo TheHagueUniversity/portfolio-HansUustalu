@@ -265,7 +265,7 @@ margin-left: -6%;
 }
 
 .body2{
-overflow: hidden; 
+overflow: hidden;
 }
 .click3{
   padding-bottom: 20%;
@@ -413,6 +413,9 @@ overflow: hidden;
     scroll: none;
     overflow-x: hidden;
     overflow-y: hidden;
+}
+.gi{
+  overflow-x: hidden;
 }
 .contact{
   margin-left:25%;
@@ -766,6 +769,8 @@ margin-left: 1.1%;
   position: inherit;
   margin-left: 10%;
   padding-bottom: 40%;
+  overflow-x: hidden;
+  padding-bottom: 24%;
 }
 .two{
   display: none;
@@ -828,9 +833,10 @@ font-size: 30px;
     margin-top: 50%;
   }
   .menu {
-    font-size: 10px;
+    font-size: 30px;
     margin-left: -4.3%;
     width: 95.7%;
+    display: grid;
   }
   .wrapper12{
     width: 100%;
