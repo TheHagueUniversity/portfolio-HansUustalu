@@ -502,6 +502,10 @@ li:hover{
   background-color: white;
   text-decoration: none;
 }
+.bespoke:hover{
+  transform: scale(1.48);
+  border-radius: 17%;
+}
 .kast{
   background-color: white;
 
