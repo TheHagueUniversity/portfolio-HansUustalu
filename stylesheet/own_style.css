@@ -860,6 +860,7 @@ p.text3 {
   }
   .mobile{
     overflow: overlay;
+    margin-top: -340%;
   }
 
   .pic2 {
