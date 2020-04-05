@@ -1042,9 +1042,9 @@ p.text3 {
     float: none;
     margin: auto;
     padding: -10%;
-    margin-top: -120%;
+    margin-top: -240%;
     margin-bottom: 5%;
-    margin-left:10%;
+    margin-left: 10%;
     transform: scale(0.5);
 
   }
