@@ -921,13 +921,7 @@ p.text3 {
     margin-left: 15%;
     transform: scale(0.5);
   }
-  .flex-container{
-
-        margin-right: 9%;
-  }
-  .vahe2{
-    margin-top: 5%;
-  }
+  .vahe2{}
   .box4{
     margin-top: 160%;
   }
@@ -1060,9 +1054,6 @@ p.text3 {
   .wrapper12{
     margin-left: 15%;
   }
-  .flex-container{
-    margin-top: -240%;
-        margin-right: 9%;
   .pos_pic{
     margin-top: -200%;
     margin-left: 10%;
