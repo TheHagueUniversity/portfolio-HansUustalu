@@ -987,7 +987,6 @@ p.text3 {
 
   }
 }
-
 @media only screen and (max-width: 800px){
   .vahe2{
     margin-top:30%;
@@ -1027,7 +1026,7 @@ p.text3 {
   }
   .box1{
     margin-left: -5%;
-}
+    margin-left
   }
   .vl{
     display: none;
@@ -1057,9 +1056,9 @@ p.text3 {
     float: none;
     margin: auto;
     padding: -10%;
-    margin-top: -250%;
-    margin-bottom: 50%;
-    margin-left: 10%;
+    margin-top: -50%;
+    margin-bottom: 5%;
+    margin-left:10%;
     transform: scale(0.5);
 
   }
