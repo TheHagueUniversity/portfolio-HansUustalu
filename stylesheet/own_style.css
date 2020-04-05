@@ -851,7 +851,7 @@ p.text3 {
 .pos45{
   visibility: none;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (min-width: 375px) and (max-width: 767px){
   .vahe2{
     margin-top:30%;
   }
@@ -860,9 +860,7 @@ p.text3 {
   }
   .mobile{
     overflow: overlay;
-    margin-top: -340%;
   }
-
 
   .pic2 {
     background-image: url("patterns/the pattern.png");
@@ -890,7 +888,6 @@ p.text3 {
   }
   .box1{
     margin-left: -5%;
-    margin-left
   }
   .vl{
     display: none;
@@ -917,13 +914,19 @@ p.text3 {
     width: 100%;
     grid-template-columns: 1fr 2fr;
     float: none;
-    margin: auto;
-    padding: -10%;
+    padding-top: -100%;
     margin-top: -100%;
+    padding-top: -5%;
     margin-bottom: 5%;
-    margin-left:15%;
+    margin-left: 15%;
     transform: scale(0.5);
+  }
+  .flex-container{
 
+        margin-right: 9%;
+  }
+  .vahe2{
+    margin-top: 5%;
   }
   .box4{
     margin-top: 160%;
@@ -976,7 +979,7 @@ p.text3 {
 
   }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 414px) and (max-width: 767px){
   .vahe2{
     margin-top:30%;
   }
@@ -1057,6 +1060,9 @@ p.text3 {
   .wrapper12{
     margin-left: 15%;
   }
+  .flex-container{
+    margin-top: -240%;
+        margin-right: 9%;
   .pos_pic{
     margin-top: -200%;
     margin-left: 10%;
