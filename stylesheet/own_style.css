@@ -980,3 +980,128 @@ p.text3 {
 
   }
 }
+@media only screen and (max-width: 800px){
+  .vahe2{
+    margin-top:30%;
+  }
+  .pic2vol{
+    display:none;
+  }
+  .mobile{
+    overflow: overlay;
+    margin-top: -340%;
+  }
+
+
+  .pic2 {
+    background-image: url("patterns/the pattern.png");
+    background-repeat: repeat-y;
+    visibility: hidden;
+  }
+  .photo{
+    margin-left: 6%;
+    margin-top: 15%;
+    color: black;
+    font-family: gin, serif;
+    font-size: 30px;
+
+  }
+  .two{
+    background-image: url("the pattern_copy.png");
+    width: 160px;
+    height: 70px;
+    display:inline;
+  }
+  .box4{
+    margin-left: -145%;
+    margin-top: 160%;
+    margin-bottom: 5%;
+  }
+  .box1{
+    margin-left: -5%;
+    margin-left
+  }
+  .vl{
+    display: none;
+  }
+  .about{
+    margin-top:10%;
+    margin-left:5%;
+  }
+  .ux{
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 400px;
+  }
+  .terr{
+    margin-top: 50%;
+  }
+  .menu {
+    font-size: 30px;
+    margin-left: -4.3%;
+    width: 95.7%;
+    display: grid;
+  }
+  .wrapper12{
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    float: none;
+    margin: auto;
+    padding: -10%;
+    margin-top: -70%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    transform: scale(0.5);
+
+  }
+  .box4{
+    margin-top: 160%;
+  }
+  .wrapper12{
+    margin-left: 15%;
+  }
+  .pos_pic{
+    margin-top: -200%;
+    margin-left: 10%;
+    margin-bottom: -20%;
+  }
+  .experience2{
+    margin-top: 60%;
+    margin-left: 40%;
+
+  }
+  .experience3{
+    margin-left: 20%;
+  }
+  .education{
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  .education2{
+    margin-left: 10%;
+  }
+  .hard{
+    margin-top: 28%;
+    margin-left: 15%;
+  }
+  .hard2{
+    margin-left: 3%;
+  }
+  .scale{
+    margin-top: -180%;
+    margin-bottom: 400%;
+  }
+  .grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    float: none;
+    margin: -10%;
+    padding: -10%;
+    margin-top: 10px;
+  }
+  .ruut{
+    width: 100%;
+    margin-left: -2%;
+
+  }
+}
