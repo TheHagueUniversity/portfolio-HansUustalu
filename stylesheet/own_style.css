@@ -1060,6 +1060,7 @@ p.text3 {
   .wrapper12{
     position: sticky;
     margin-left: 15%;
+    width: 99%;
   }
   .pos_pic{
     margin-top: -200%;
