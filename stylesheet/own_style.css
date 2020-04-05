@@ -383,14 +383,7 @@ li:hover{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.ux:hover{
-  animation-name: pulse_animation;
-  animation-duration: 5000ms;
-  transform-origin:50% 50%;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  margin-left: 4%;
-}
+
 .cover{
   width: 200px;
   position: absolute;
@@ -508,10 +501,6 @@ li:hover{
 .bespoke{
   background-color: white;
   text-decoration: none;
-}
-.bespoke:hover{
-  transform: scale(1.48);
-  border-radius: 17%;
 }
 .kast{
   background-color: white;
@@ -1045,9 +1034,9 @@ p.text3 {
   }
   .menu {
     font-size: 30px;
-    margin-left: -4.3%;
     width: 95.7%;
     display: grid;
+    overflow-x: hidden;
   }
   .wrapper12{
     width: 100%;
@@ -1056,7 +1045,7 @@ p.text3 {
     float: none;
     margin: auto;
     padding: -10%;
-    margin-top: -50%;
+    margin-top: -120%;
     margin-bottom: 5%;
     margin-left:10%;
     transform: scale(0.5);
@@ -1110,6 +1099,5 @@ p.text3 {
   .ruut{
     width: 100%;
     margin-left: -2%;
-
   }
 }
