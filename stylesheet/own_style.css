@@ -977,8 +977,14 @@ p.text3 {
   .ruut{
     width: 100%;
     margin-left: -2%;
+    height: 100%;
+        padding: 12px;
+margin-right: -2%;
 
-  }
+        position: center;
+        word-wrap: break-word;
+        margin-top: -106px;
+padding-bottom: 100%;
 }
 @media only screen and (min-width: 414px) and (max-width: 767px){
   .vahe2{
@@ -1114,7 +1120,15 @@ p.text3 {
   .ruut{
     width: 100%;
     margin-left: -2%;
-  }
+    height: 100%;
+        padding: 12px;
+margin-right: -2%;
+
+        position: center;
+        word-wrap: break-word;
+        margin-top: -106px;
+padding-bottom: 100%;
+}
   .pic2{
 
     display: none;
