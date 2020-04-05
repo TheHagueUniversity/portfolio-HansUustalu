@@ -997,7 +997,13 @@ p.text3 {
     margin-top: -340%;
   }
 
+  #eri{
+    padding-right: -20%;
+    width: 95%;
+      line-height: normal;
+      font-family: gin, serif;
 
+  }
   .pic2 {
     background-image: url("patterns/the pattern.png");
     background-repeat: repeat-y;
@@ -1108,5 +1114,12 @@ p.text3 {
   .ruut{
     width: 100%;
     margin-left: -2%;
+  }
+  .pic2{
+
+    display: none;
+  }
+  .pic2vol{
+    display: none;
   }
 }
