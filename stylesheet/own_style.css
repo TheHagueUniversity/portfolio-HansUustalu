@@ -977,6 +977,11 @@ p.text3 {
   .vahe2{
     margin-top:30%;
   }
+  .contact{
+    padding-left: 20px;
+    font-family: gin, serif;
+    font-size: 50px;
+  }
   .pic2vol{
     display:none;
   }
