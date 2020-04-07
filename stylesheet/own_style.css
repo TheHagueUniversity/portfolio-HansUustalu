@@ -383,7 +383,13 @@ li:hover{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
+.ux:hover{
+  animation-name: pulse_animation;
+  animation-duration: 5000ms;
+  transform-origin:40% 40%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 .cover{
   width: 200px;
   position: absolute;
@@ -419,7 +425,7 @@ li:hover{
 .ux{
   margin-top: -60%;
 
-  margin-left: 55%;
+  margin-left: 47%;
   margin-bottom: 11%;
 }
 .photogrpahy{
