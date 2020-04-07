@@ -860,6 +860,7 @@ p.text3 {
   .vahe2{
     margin-top:30%;
   }
+
   .pic2vol{
     display:none;
   }
@@ -919,8 +920,11 @@ p.text3 {
   .menu {
     font-size: 30px;
     margin-left: -4.3%;
-    width: 95.7%;
+    width: 95%;
     display: grid;
+  }
+  .fade-in{
+    overflow-x: hidden;
   }
   .wrapper12{
     width: 100%;
@@ -980,11 +984,11 @@ p.text3 {
     margin-top: 10px;
   }
   .ruut{
-    width: 100%;
+    width: 95%;
     margin-left: -2%;
     height: 100%;
         padding: 12px;
-margin-right: -2%;
+margin-right: -0.5%;
 
         position: center;
         word-wrap: break-word;
