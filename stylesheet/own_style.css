@@ -878,6 +878,8 @@ p.text3 {
     width: 95%;
       line-height: normal;
       font-family: gin, serif;
+  
+    margin-right: 2%;
 
   }
 
@@ -1024,6 +1026,7 @@ padding-bottom: 100%;
     width: 95%;
       line-height: normal;
       font-family: gin, serif;
+    margin-right: 2%;
 
   }
   .pic2 {
