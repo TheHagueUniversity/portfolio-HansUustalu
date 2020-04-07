@@ -942,7 +942,7 @@ p.text3 {
     margin-bottom: 5%;
     margin-left: 15%;
     transform: scale(0.5);
-    position: static;
+    position: sticky;
   }
   .vahe2{}
   .box4{
@@ -1086,7 +1086,7 @@ padding-bottom: 100%;
     margin-bottom: 5%;
     margin-left: 10%;
     transform: scale(0.5);
-
+position: sticky;
   }
   .box4{
     margin-top: 160%;
