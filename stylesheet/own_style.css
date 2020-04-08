@@ -878,7 +878,7 @@ p.text3 {
     width: 95%;
       line-height: normal;
       font-family: gin, serif;
-  
+
     margin-right: 2%;
 
   }
@@ -1154,5 +1154,13 @@ padding-bottom: 100%;
   }
   .pic2vol{
     display: none;
+  }
+  html{
+    overflow-x: hidden;
+  }
+  body{
+
+    overflow-y: scroll;
+    position: relative;
   }
 }
