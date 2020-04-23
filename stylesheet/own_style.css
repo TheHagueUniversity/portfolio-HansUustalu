@@ -104,6 +104,7 @@ li:hover{
   padding:30px;
   font-family: gin, serif;
   font-weight: 400;
+  margin-top: -1.9%;
   font-style: normal;
 }
 
@@ -863,151 +864,31 @@ p.text3 {
 .pos45{
   visibility: none;
 }
+.menu-btn{
+visibility: collapse;
+}
 @media only screen and (min-width: 375px) and (max-width: 767px){
   .vahe2{
     margin-top:30%;
   }
-
-  .pic2vol{
-    display:none;
+  li:hover{
+    color:black;
   }
-  .mobile{
-    overflow: overlay;
-  }
-  #eri{
-    padding-right: -20%;
-    width: 90%;
-      line-height: normal;
-      font-family: gin, serif;
-
-      margin-right: 5%;
+  .hover:hover{
+    background-color: black;
+    padding-bottom: -10%;
+    margin-top: -50px;
+    margin-bottom: 100px;
 
   }
-
-  .pic2 {
-    background-image: url("patterns/the pattern.png");
-    background-repeat: repeat-y;
-    visibility: hidden;
-  }
-  .photo{
-    margin-left: 6%;
-    margin-top: 15%;
-    color: black;
-    font-family: gin, serif;
-    font-size: 30px;
-
-  }
-  .two{
-    background-image: url("the pattern_copy.png");
-    width: 160px;
-    height: 70px;
-    display:inline;
-  }
-  .box4{
-    margin-left: -145%;
-    margin-top: 160%;
-    margin-bottom: 5%;
-  }
-  .box1{
-    margin-left: -5%;
-  }
-  .vl{
-    display: none;
-  }
-  .about{
-    margin-top:10%;
-    margin-left:5%;
-  }
-  .ux{
-    margin-top: 40%;
-    margin-left: 10%;
-    width: 400px;
-  }
-  .terr{
-    margin-top: 50%;
-  }
-  .menu {
-    font-size: 30px;
-    margin-left: -4.3%;
-    width: 95%;
-    display: grid;
-  }
-  .fade-in{
-    overflow-x: hidden;
-  }
-  .wrapper12{
-    width: 100%;
-    grid-template-columns: 1fr 2fr;
-    float: none;
-    padding-top: -100%;
-    margin-top: -100%;
-    padding-top: -5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    transform: scale(0.5);
-    position: sticky;
-  }
-  .vahe2{}
-  .box4{
-    margin-top: 160%;
-  }
-  .wrapper12{
-    margin-left: 15%;
-  }
-  .pos_pic{
-    margin-top: -200%;
-    margin-left: 10%;
-    margin-bottom: -20%;
-  }
-  .experience2{
-    margin-top: 60%;
-    margin-left: 40%;
-
-  }
-  .experience3{
-    margin-left: 20%;
-  }
-  .education{
-    margin-top: 10%;
-    margin-left: 40%;
-  }
-  .education2{
-    margin-left: 10%;
-  }
-  .hard{
-    margin-top: 28%;
-    margin-left: 15%;
-  }
-  .hard2{
-    margin-left: 3%;
-  }
-  .scale{
-    margin-top: -180%;
-    margin-bottom: 400%;
-  }
-  .grid {
-    width: 100%;
-    grid-template-columns: 1fr;
-    float: none;
-    margin: -10%;
-    padding: -10%;
-    margin-top: 10px;
-  }
-  .ruut{
-    width: 95%;
-    margin-left: -2%;
-    height: 100%;
-        padding: 12px;
-margin-right: -0.5%;
-
-        position: center;
-        word-wrap: break-word;
-        margin-top: -106px;
-padding-bottom: 100%;
-}
-@media only screen and (min-width: 414px) and (max-width: 767px){
-  .vahe2{
-    margin-top:30%;
+  .hover2:hover{
+    background-color: black;
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px;*/
   }
   .contact{
     padding-left: 20px;
@@ -1021,8 +902,131 @@ padding-bottom: 100%;
     overflow: overlay;
     margin-top: -340%;
   }
+/*the haburger animation menu*/
+.header{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.about{
+  padding: 10%;
+}
+/*for clearing the menu at first*/
+.header .menu{
+  clear: both;
+padding-bottom: 4%;
+  max-height: 0;
+  transition: max-height .4s ease-out;
+}
+.header .menu .nup2{
+  margin-top: 10%;
+}
+.header ul a:hover{
+  background-color: #ddd;
+}
+.header .menu-icon{
+  border:1px solid #2E5770;
+  padding: 10px 10px;
+  padding-left: 100%;
+  position: relative;
+  float: right;
+  z-index: 4;
+  background-color: #2E5770;
+  cursor: pointer;
+}
+.header .menu-icon .nav-icon{
+  display: block;
+  background: #333;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background .4s ease-out;
+}
+.header .menu-icon .nav-icon:before{
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition:all .2s ease-out;
+  position: absolute;
+  top:5px;
+  }
+.kauge{
+  margin-bottom: 10%;
+}
+  .header .menu-icon .nav-icon:after{
+    background: #333;
+    content: "";
+    display: block;
+    height: 150%;
+    width: 100%;
+    transition:all .2s ease-out;
+    position: absolute;
+    top:-5px;
+  }
+  .header .menu-btn{
+    display: none;
+    z-index: 4;
+  }
 
-  #eri{
+.menu{
+display: none;
+scrolling:none;
+}
+.nup2{
+visibility: hidden;
+}
+.blog{
+  padding-top: 30%;
+}
+.nup{
+  position: static;
+  padding: 10%;
+}
+.vis{
+  visibility: hidden;
+}
+.foto{
+    margin-top: 50%;
+}
+  /*the X*/
+  /*transparent*/
+  .header .menu-btn:checked~ .menu-icon .nav-icon{
+  background: transparent;
+  }
+  /*under X*/
+  .header .menu-btn:checked~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top:0;
+  }
+  /*upper X*/
+.header .menu-btn:checked~ .menu-icon .nav-icon:after{
+    transform:rotate(45deg);
+    top:0;
+}
+
+.header .menu:before{
+  visibility: hidden;
+}
+.osa{
+  margin-top: 50%;
+}
+  /*this is the out go height*/
+  .header .menu-btn:checked ~ .menu{
+    max-height:350px;
+  }
+  .menu {
+    font-size: 30px;
+    width: 95.7%;
+    display: grid;
+    overflow-x: hidden;
+height: -10.1%;
+  }
+/*the end of the hamburer menu*/
+
+/**/
+#eri{
     padding-right: -20%;
     width: 90%;
       line-height: normal;
@@ -1043,6 +1047,11 @@ padding-bottom: 100%;
     font-size: 30px;
 
   }
+  .photogrpahy{
+      margin-left: 3%;
+      margin-top: 30%;
+      transform: scale(0.7);
+    }
   .two{
     background-image: url("the pattern_copy.png");
     width: 160px;
@@ -1073,12 +1082,12 @@ padding-bottom: 100%;
   .terr{
     margin-top: 50%;
   }
-  .menu {
-    font-size: 30px;
-    width: 95.7%;
-    display: grid;
-    overflow-x: hidden;
-  }
+
+
+
+.about{
+  display: hidden;
+}
   .wrapper12{
     width: 100%;
     grid-template-columns: 1fr 1fr;
@@ -1126,8 +1135,316 @@ position: sticky;
     margin-left: 3%;
   }
   .scale{
-    margin-top: -180%;
+    margin-top: -170%;
     margin-bottom: 400%;
+    position: relative;
+  }
+  .grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    float: none;
+    margin: -10%;
+    padding: -10%;
+    margin-top: 10px;
+  }
+  .ruut{
+    width: 100%;
+    margin-left: -2%;
+    height: 100%;
+        padding: 12px;
+margin-right: -2%;
+
+        position: center;
+        word-wrap: break-word;
+        margin-top: -106px;
+padding-bottom: 100%;
+}
+  .pic2{
+
+    display: none;
+  }
+  .pic2vol{
+    display: none;
+  }
+  html{
+    overflow-x: hidden;
+  }
+  body{
+
+    overflow-y: scroll;
+    position: relative;
+  }
+@media only screen and (min-width: 414px) and (max-width: 767px){
+  .vahe2{
+    margin-top:30%;
+  }
+  li:hover{
+    color:black;
+  }
+  .hover:hover{
+    background-color: black;
+    padding-bottom: -10%;
+    margin-top: -50px;
+    margin-bottom: 100px;
+
+  }
+  .hover2:hover{
+    background-color: black;
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px;*/
+  }
+  .contact{
+    padding-left: 20px;
+    font-family: gin, serif;
+    font-size: 50px;
+  }
+  .pic2vol{
+    display:none;
+  }
+  .mobile{
+    overflow: overlay;
+    margin-top: -340%;
+  }
+/*the haburger animation menu*/
+.header{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.about{
+  padding: 10%;
+}
+/*for clearing the menu at first*/
+.header .menu{
+  clear: both;
+padding-bottom: 4%;
+  max-height: 0;
+  transition: max-height .4s ease-out;
+}
+.header .menu .nup2{
+  margin-top: 10%;
+}
+.header ul a:hover{
+  background-color: #ddd;
+}
+.header .menu-icon{
+  border:1px solid #2E5770;
+  padding: 10px 10px;
+  padding-left: 100%;
+  position: relative;
+  float: right;
+  z-index: 4;
+  background-color: #2E5770;
+  cursor: pointer;
+}
+.header .menu-icon .nav-icon{
+  display: block;
+  background: #333;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background .4s ease-out;
+}
+.header .menu-icon .nav-icon:before{
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition:all .2s ease-out;
+  position: absolute;
+  top:5px;
+  }
+.kauge{
+  margin-bottom: 10%;
+}
+  .header .menu-icon .nav-icon:after{
+    background: #333;
+    content: "";
+    display: block;
+    height: 150%;
+    width: 100%;
+    transition:all .2s ease-out;
+    position: absolute;
+    top:-5px;
+  }
+  .header .menu-btn{
+    display: none;
+    z-index: 4;
+  }
+
+.menu{
+display: none;
+scrolling:none;
+}
+.nup2{
+visibility: hidden;
+}
+.blog{
+  padding-top: 30%;
+}
+.nup{
+  position: static;
+  padding: 10%;
+}
+.vis{
+  visibility: hidden;
+}
+.foto{
+    margin-top: 50%;
+}
+  /*the X*/
+  /*transparent*/
+  .header .menu-btn:checked~ .menu-icon .nav-icon{
+  background: transparent;
+  }
+  /*under X*/
+  .header .menu-btn:checked~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top:0;
+  }
+  /*upper X*/
+.header .menu-btn:checked~ .menu-icon .nav-icon:after{
+    transform:rotate(45deg);
+    top:0;
+}
+
+.header .menu:before{
+  visibility: hidden;
+}
+.osa{
+  margin-top: 50%;
+}
+  /*this is the out go height*/
+  .header .menu-btn:checked ~ .menu{
+    max-height:350px;
+  }
+  .menu {
+    font-size: 30px;
+    width: 95.7%;
+    display: grid;
+    overflow-x: hidden;
+height: -10.1%;
+  }
+/*the end of the hamburer menu*/
+
+/**/
+#eri{
+    padding-right: -20%;
+    width: 90%;
+      line-height: normal;
+      font-family: gin, serif;
+    margin-right: 5%;
+
+  }
+  .pic2 {
+    background-image: url("patterns/the pattern.png");
+    background-repeat: repeat-y;
+    visibility: hidden;
+  }
+  .photo{
+    margin-left: 6%;
+    margin-top: 15%;
+    color: black;
+    font-family: gin, serif;
+    font-size: 30px;
+
+  }
+  .photogrpahy{
+      margin-left: 3%;
+      margin-top: 30%;
+      transform: scale(0.7);
+    }
+  .two{
+    background-image: url("the pattern_copy.png");
+    width: 160px;
+    height: 70px;
+    display:inline;
+  }
+  .box4{
+    margin-left: -145%;
+    margin-top: 160%;
+    margin-bottom: 5%;
+  }
+  .box1{
+    margin-left: -5%;
+    margin-left
+  }
+  .vl{
+    display: none;
+  }
+  .about{
+    margin-top:10%;
+    margin-left:5%;
+  }
+  .ux{
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 400px;
+  }
+  .terr{
+    margin-top: 50%;
+  }
+
+
+
+.about{
+  display: hidden;
+}
+  .wrapper12{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    float: none;
+    margin: auto;
+    padding: -10%;
+    margin-top: -240%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    transform: scale(0.5);
+position: sticky;
+  }
+  .box4{
+    margin-top: 160%;
+  }
+  .wrapper12{
+    margin-left: 15%;
+  }
+  .pos_pic{
+    margin-top: -200%;
+    margin-left: 10%;
+    margin-bottom: -20%;
+  }
+  .experience2{
+    margin-top: 60%;
+    margin-left: 40%;
+
+  }
+  .experience3{
+    margin-left: 20%;
+  }
+  .education{
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  .education2{
+    margin-left: 10%;
+  }
+  .hard{
+    margin-top: 28%;
+    margin-left: 15%;
+  }
+  .hard2{
+    margin-left: 3%;
+  }
+  .scale{
+    margin-top: -170%;
+    margin-bottom: 400%;
+    position: relative;
   }
   .grid {
     width: 100%;
