@@ -831,13 +831,42 @@ p.text3 {
 }
 .title{
   margin-top: 5%;
-  font-size: 38.5px;
+  font-size: 40px;
   margin-right: 30px;
   margin-left: 10px;
   font-family: gin, serif;
   font-style: bold;
+  padding-top: 20%;
+      margin-left: 5%;
+      display: grid;
 }
+.title2{
+  font-size: 40px;
+  margin-right: 30px;
 
+  font-family: gin, serif;
+  font-style: bold;
+  padding-top: 5%;
+      margin-left: 5%;
+      display: grid;
+}
+.title3{
+  font-size: 40px;
+  margin-right: 30px;
+  font-family: gin, serif;
+  font-style: bold;
+  padding-top: 5%;
+      margin-left: 5%;
+      display: grid;
+}
+#liig{
+  padding-top: 20%;
+      margin-left: 5%;
+      display: grid;
+}
+#liigu32{
+  display: grid;
+}
 .img_up{
   padding-top: -5%;
 }
