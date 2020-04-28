@@ -107,8 +107,20 @@ li:hover{
   margin-top: -1.9%;
   font-style: normal;
 }
+.title5{
+  margin-top: 5%;
+    font-size: 40px;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-family: gin, serif;
+    font-style: bold;
 
-
+    margin-left: 5%;
+    display: grid;
+}
+.nup3{
+  display: none;
+}
 .menu a{
   margin-top: 30px;
   color: #4DFFE4;
