@@ -587,11 +587,12 @@ transform: scale(0.7);
 }
 .soft{
   font-family: gin, serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin-left: 11%;
-  margin-top: 7%;
-}
+      font-weight: 400;
+      font-size: 30px;
+      margin-left: 10%;
+      margin-top: 10%;
+  }
+
 .soft2{
   font-family: gin, serif;
   font-weight: 400;
@@ -601,10 +602,10 @@ transform: scale(0.7);
 }
 .hard{
   font-family: gin, serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin-left: 72%;
-  margin-top: -13.2%;
+      font-weight: 400;
+      font-size: 30px;
+      margin-left: 72%;
+      margin-top: -28.2%;
 }
 .hard2{
   font-family: gin, serif;
