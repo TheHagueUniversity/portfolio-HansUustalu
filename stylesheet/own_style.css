@@ -670,6 +670,13 @@ overflow-y: hidden;
   font-family: gin, serif;
   font-size: 30px;
 }
+.research4{
+  margin-left: 30%;
+  margin-top: 0%;
+  color:black;
+  font-family: gin, serif;
+  font-size: 30px;
+}
 .photo{
   margin-left: 15%;
   margin-top: 15%;
@@ -705,7 +712,7 @@ overflow-y: hidden;
   font-family: gin, serif;
   color:black;
   margin-left: 24%;
-  margin-top: 20%;
+  margin-top: 26%;
   margin-bottom: -10%;
   justify-content: center;
 }
@@ -714,7 +721,7 @@ overflow-y: hidden;
   font-family: gin, serif;
   color:black;
   margin-left: 24%;
-  margin-top: 10%;
+  margin-top: 22%;
   justify-content: center;
   padding-bottom: 10%;
 }
